@@ -48,12 +48,12 @@ test('clicking lower right square adds X to square', async () => {
     await (await driver).sleep(3000)
 })
 
-test('check computer move', async () => {
-    let button = await (await driver).findElement(By.id('start-game'))
+// test('check computer move', async () => {
+//     let button = await (await driver).findElement(By.id('start-game'))
     
-    await button.click();
+//     await button.click();
 
-    await (await driver).findElement(By.xpath('//input')).sendKeys('o')
+//     await (await driver).findElement(By.xpath('//input')).sendKeys('o')
 
-    await (await driver).sleep(3000)
-})
+//     await (await driver).sleep(3000)
+// })
